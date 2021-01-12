@@ -150,19 +150,19 @@ export const faq = {
   loanRange: [
     {
       programName: "the Full-Time JavaScript Web Engineer program",
-      maxAmount: "$12,500",
+      maxAmount: "$15,000",
       col: true,
       colAmount: "$5,500",
     },
     {
       programName: "the Part-Time JavaScript Web Engineer program",
-      maxAmount: "$12,500",
+      maxAmount: "$15,000",
       col: false,
       colAmount: "$6,000",
     },
     {
       programName: "the Cyber Security Professional program",
-      maxAmount: "$14,500",
+      maxAmount: "$15,000",
       col: false,
       colAmount: "$6,000",
     },
