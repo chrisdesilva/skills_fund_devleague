@@ -149,19 +149,13 @@ export const faq = {
   // max loan amounts by program for faq1
   loanRange: [
     {
-      programName: "the Full-Time JavaScript Web Engineer program",
-      maxAmount: "$15,000",
-      col: true,
-      colAmount: "$5,500",
-    },
-    {
-      programName: "the Part-Time JavaScript Web Engineer program",
+      programName: "the Full Stack Developer - Part-Time program",
       maxAmount: "$15,000",
       col: false,
       colAmount: "$6,000",
     },
     {
-      programName: "the Cyber Security Professional program",
+      programName: "the Cybersecurity - Part-Time program",
       maxAmount: "$15,000",
       col: false,
       colAmount: "$6,000",
@@ -223,75 +217,7 @@ export const moreThanSixPrograms = false // set to true if there are 7 or more p
 export const programLoanInfo = [
   // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
   {
-    name: "Full-Time JavaScript",
-    url: "https://my.skills.fund/application?lenderCode=SKDLJSPT19",
-    loanInfo: {
-      // match loanInfo in first metro below
-      maxLoanAmt: 18000,
-      loanTerm36: true,
-      loanTerm60: true,
-      "Interest Only": {
-        // interest-only
-        k: 7,
-        apr36: 11.5,
-        apr60: 12.8,
-      },
-      "Immediate Repayment": null, // immediate repayment
-    },
-    defaultLoanType: "Interest Only", // leave at 0 for interest-only, set to 1 for immediate repayment
-    showMetros: false, // true if there are multiple metros with different tuition amounts for the same program
-    showLoanTypes: false, // true if both IR and IO are available
-    loanTypes: ["Interest Only"],
-    locations: ["Metro 1", "Metro 2", "Metro 3"],
-    metros: [
-      // list in same order as locations array above
-      {
-        location: "Metro 1",
-        loanInfo: {
-          // // match loanInfo to Program 1 above
-          maxLoanAmt: 18000,
-          loanTerm36: true,
-          loanTerm60: true,
-          "Interest Only": {
-            k: 7,
-            apr36: 11.5,
-            apr60: 12.8,
-          },
-          "Immediate Repayment": null,
-        },
-      },
-      {
-        location: "Metro 2",
-        loanInfo: {
-          maxLoanAmt: 15545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "Interest Only": {
-            k: 6,
-            apr36: 11.16,
-            apr60: 12.51,
-          },
-          "Immediate Repayment": null,
-        },
-      },
-      {
-        location: "Metro 3",
-        loanInfo: {
-          maxLoanAmt: 20545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "Interest Only": {
-            k: 6,
-            apr36: 11.16,
-            apr60: 12.51,
-          },
-          "Immediate Repayment": null,
-        },
-      },
-    ],
-  },
-  {
-    name: "Part-Time JavaScript",
+    name: "Full Stack Developer - Part Time",
     url: "https://my.skills.fund/application?lenderCode=SKDLJSFT19",
     loanInfo: {
       // match loanInfo in first metro below
@@ -345,7 +271,7 @@ export const programLoanInfo = [
     ],
   },
   {
-    name: "Cyber Security",
+    name: "Cybersecurity - Part Time",
     url: "https://my.skills.fund/application?lenderCode=SKDLCSP19",
     loanInfo: {
       // match loanInfo in first metro below
